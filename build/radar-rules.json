@@ -725,6 +725,16 @@
         ],
         "target": "/agora0/pen0"
       }
+    ],
+    "njuferret": [
+      {
+        "title": "Blogs",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/njuferret/blog"
+      }
     ]
   },
   "ahjzu.edu.cn": {
@@ -7384,6 +7394,19 @@
           "/report.shtml"
         ],
         "target": "/iresearch/report"
+      }
+    ]
+  },
+  "itc.cn": {
+    "_name": "Open Github社区",
+    "open": [
+      {
+        "title": "合集",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/itc/collection/:colType"
       }
     ]
   },

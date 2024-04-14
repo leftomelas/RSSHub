@@ -29481,6 +29481,31 @@
     "name": "Issue Hunt",
     "url": "issuehunt.io"
   },
+  "itc": {
+    "routes": {
+      "/collection/:colType": {
+        "path": "/collection/:colType",
+        "categories": [
+          "blog"
+        ],
+        "example": "/itc/collection/1",
+        "radar": [
+          {
+            "source": [
+              "open.itc.cn/"
+            ]
+          }
+        ],
+        "name": "合集",
+        "maintainers": [
+          "cnkmmk"
+        ],
+        "location": "collection.ts"
+      }
+    },
+    "name": "Open Github社区",
+    "url": "open.itc.cn"
+  },
   "itch": {
     "routes": {
       "/devlog/:user/:id": {
@@ -38465,6 +38490,35 @@
     },
     "name": "南京中医药大学",
     "url": "lib.njucm.edu.cn"
+  },
+  "njuferret": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/njuferret/blog",
+        "radar": [
+          {
+            "source": [
+              "njuferret.github.io"
+            ]
+          }
+        ],
+        "name": "Blogs",
+        "maintainers": [
+          "tyl0622"
+        ],
+        "location": "blog.ts"
+      }
+    },
+    "name": "njuferret",
+    "url": "njuferret.github.io",
+    "description": "",
+    "zh": {
+      "name": "有点博客"
+    }
   },
   "njupt": {
     "routes": {
